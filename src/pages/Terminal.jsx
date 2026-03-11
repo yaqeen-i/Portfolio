@@ -15,7 +15,7 @@ const Terminal = () => {
       content: (
         <div>
           <strong>Yaqeen Khazaleh</strong><br/>
-          FrontEnd Engineer <br/>
+          DevOps Engineer <br/>
           <span className="comment"># "Fueled by making the world a better place, every achievement at a time."</span>
         </div>
       ) 
@@ -26,9 +26,9 @@ const Terminal = () => {
       content: (
         <div className="code-block">
           {'{'} <br/>
-          &nbsp;&nbsp;"Frontend": [<span className="path">"React"</span>, <span className="path">"vite"</span>, <span className="path">"CSS"</span>, <span className="path">"HTML"</span>, <span className="path">Figma</span>],<br/>
-          &nbsp;&nbsp;"Backend": [<span className="path">"Java"</span>, <span className="path">"Node"</span>],<br/>
-          &nbsp;&nbsp;"Others": [<span className="path">"AWS Route 53"</span>, <span className="path">"Github"</span>, <span className="path">"Cloudflare"</span>]<br/>
+          &nbsp;&nbsp;"Frontend": [<span className="path">"React"</span>, <span className="path">"vite"</span>, <span className="path">"CSS"</span>, <span className="path">"HTML"</span>, <span className="path">"Figma"</span>],<br/>
+          &nbsp;&nbsp;"Backend": [<span className="path">"Java-SpringBoot"</span>, <span className="path">"Node.js - Express.js"</span>],<br/>
+          &nbsp;&nbsp;"DevOps": [<span className="path">"AWS ECS,S3, CloudFront, EC2..."</span>, <span className="path">"Github CI/CD"</span>, <span className="path">"Cloudflare"</span>, <span className="path">"Bash Scripting"</span>, <span className="path">"Docker"</span>]<br/>
           {'}'}
         </div>
       ) 
@@ -53,10 +53,10 @@ const Terminal = () => {
               </div>
           </div>
           <div className="ascii-card">
-            <div className="ascii-title">./FRONTEND_PORTFOLIO</div>
+            <div className="ascii-title">./PORTFOLIO</div>
             <p>This terminal interface along with others.</p>
             <br/>
-            <a href="https://github.com/yaqeen-i/Frontend-Portfolio" className="link">[SOURCE_CODE]</a>
+            <a href="https://github.com/yaqeen-i/Portfolio" className="link">[SOURCE_CODE]</a>
           </div>
         </div>
       ) 

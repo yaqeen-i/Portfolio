@@ -29,24 +29,24 @@ const SpotlightPortfolio = () => {
       <main className="sp-main" ref={containerRef}>
         
         <header className="sp-header">
-          <div className="sp-badge">FrontEnd Developer</div>
+          <div className="sp-badge">DevOps Engineer</div>
           <h1 className="sp-title">
             Yaqeen Khazaleh
           </h1>
           <p className="sp-subtitle">
-            A software engineer with expertise in FrontEnd development using ReactJS, 
-            Component-based Architecture, and API integration. 
+            A software engineer with expertise in Backend development using Node.js and Java SpringBoot,
+            and Frontend development using ReactJS. Skilled in AWS, Github Actions.
             Passionate about making the world a better place through code.
           </p>
           
           <div className="sp-tech-pills">
-            <div className="sp-pill">ReactJS</div>
-            <div className="sp-pill">Vite</div>
+            <div className="sp-pill">AWS</div>
+            <div className="sp-pill">Github Actions</div>
+            <div className="sp-pill">Docker</div>
+            <div className="sp-pill">REST API Development (Node.js - Java )</div>
             <div className="sp-pill">JavaScript (ES6+)</div>
-            <div className="sp-pill">UI Development</div>
-            <div className="sp-pill">Figma</div>
-            <div className="sp-pill">Web Optimization</div>
-            <div className="sp-pill">WCAG Standards</div>
+            <div className="sp-pill">Vite</div>
+            <div className="sp-pill">CloudFlare</div>
           </div>
         </header>
 
@@ -62,7 +62,7 @@ const SpotlightPortfolio = () => {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12h20"></path><path d="M2 12l5-5"></path><path d="M2 12l5 5"></path></svg>
               </div>
               <h3>UML Modeling Tool</h3>
-              <p>A collaborative web-based modeling tool featuring user-friendly workspaces and real-time chat. Built with ReactJS and SpringBoot.</p>
+              <p>A collaborative web-based modeling tool featuring user-friendly workspaces and real-time chat. Built with ReactJS (Vite) and SpringBoot.</p>
               <div className="sp-card-footer">
                 <a href="https://github.com/yaqeen-i/UMLFactory" 
                 target="_blank" 
@@ -83,7 +83,7 @@ const SpotlightPortfolio = () => {
               <h3>Professional Portfolio</h3>
               <p>A multi-style portfolio platform demonstrating versatile UI/UX capabilities using ReactJS and modern design principles.</p>
               <div className="sp-card-footer">
-                <a href="https://github.com/yaqeen-i/Frontend-Portfolio" 
+                <a href="https://github.com/yaqeen-i/Portfolio" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="sp-btn-link"
@@ -123,10 +123,13 @@ const SpotlightPortfolio = () => {
           <div className="sp-card" style={{gridColumn: 'span 3'}}>
             <div className="sp-card-content" style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
               <div>
-                <h3 style={{margin: 0}}>FrontEnd Engineer @ Quiqflow</h3>
+                <h3 style={{margin: 0}}>DevOps Engineer @ Quiqflow</h3>
                 <p style={{margin: '0.5rem 0 0 0', color: 'var(--sp-text-secondary)'}}>Oct 2025 - Present (Remote)</p>
                 <p style={{fontSize: '0.85rem', marginTop: '0.5rem', opacity: 0.8}}>
-                  Designed main client/admin pages, optimized performance, and debugged legacy code.
+                  Optimized CI/CD pipelines by Github Actions, reducing deployment times by 12-15%. <br />
+                  Implemented AWS Infrastructure and troubleshooted issues with an uptime of 99%.<br /> 
+                  Implemented proper routing and origin rules for cloudflare.
+                  Reduced Dockerfiles sizes from 1.7-2GB to 300-400MB by optimizing layers and using multi-stage builds.
                 </p>
               </div>
             </div>
@@ -135,10 +138,10 @@ const SpotlightPortfolio = () => {
           <div className="sp-card" style={{gridColumn: 'span 3'}}>
             <div className="sp-card-content" style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
               <div>
-                <h3 style={{margin: 0}}>FrontEnd Developer @ OpsHeaven</h3>
+                <h3 style={{margin: 0}}>Backend Developer @ OpsHeaven</h3>
                 <p style={{margin: '0.5rem 0 0 0', color: 'var(--sp-text-secondary)'}}>Aug 2025 - Oct 2025</p>
                  <p style={{fontSize: '0.85rem', marginTop: '0.5rem', opacity: 0.8}}>
-                  Delivered high-quality ReactJS pages, led MVC architecture implementation, and handled unit/integration testing.
+                  Delivered high-quality API, led MVC architecture implementation, and handled unit/integration testing and Frontend development.
                 </p>
               </div>
             </div>
@@ -149,7 +152,7 @@ const SpotlightPortfolio = () => {
         <div className="sp-contact-area">
           <h2>Let's build something great.</h2>
           <p style={{color: 'var(--sp-text-secondary)', margin: '1rem 0 2rem 0'}}>
-            I'm currently available for new FrontEnd opportunities.
+            I'm currently available for new opportunities.
           </p>
           <a href="mailto:yaqeen.hamza98@gmail.com" className="sp-pill" style={{background: '#fff', color: '#000', border: 'none', fontWeight: 600, padding: '12px 30px', textDecoration: 'none'}}>
             Email Me

@@ -131,18 +131,28 @@ const InterstellarPortfolio = () => {
             <nav>
                 <div className="logo">YAQEEN_DEV</div>
                 <div>
-                    <Link to="/" className="menu-link">HOME</Link>
-                    <span className="menu-link">About</span>
-                    <span className="menu-link">Contact</span>
+                    <Link to="/" className="link">HOME</Link>
+                    <span className="menu-link">
+                        <a href="https://github.com/yaqeen-i"
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        className="link"
+                        >
+                            About
+                        </a>
+                    </span>
+                    <span className="menu-link">
+                        <a href="mailto:yaqeen.hamza98@gmail.com" className="link">Contact</a>
+                    </span>
                 </div>
             </nav>
 
             <section className="hero">
-                <h1 className="hero-title">FrontEnd <br /> Engineer</h1>
+                <h1 className="hero-title">DevOps <br /> Engineer</h1>
                 <p className="subtitle">
                     Fueled by making the world a better place, every achievement at a time.
                     <br/>
-                    Specializing in React and Vite.
+                    Specializing in DevOps and Backend Development.
                 </p>
                 
                 <a href="https://github.com/yaqeen-i"
@@ -174,12 +184,12 @@ const InterstellarPortfolio = () => {
                 </a>
                 
                 <a 
-                    href="https://github.com/yaqeen-i/Frontend-Portfolio" 
+                    href="https://github.com/yaqeen-i/Portfolio" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="project-item"
                 >
-                    03 // FRONTEND_PORTFOLIO
+                    03 // THIS_PORTFOLIO
                 </a>
             </div>
         </main>
